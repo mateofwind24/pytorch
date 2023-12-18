@@ -13,6 +13,7 @@ set PATH=C:\Program Files\CMake\bin;C:\Program Files\7-Zip;C:\ProgramData\chocol
 :: log sizes are too long, but leaving this here incase someone wants to use it locally
 :: set CMAKE_VERBOSE_MAKEFILE=1
 
+
 set INSTALLER_DIR=%SCRIPT_HELPERS_DIR%\installation-helpers
 
 call %INSTALLER_DIR%\install_magma.bat
