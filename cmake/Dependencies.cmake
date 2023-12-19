@@ -25,7 +25,7 @@ macro(disable_ubsan)
     string(REPLACE ${UBSAN_FLAG} "" CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS})
   endif()
 endmacro()
-
+ 
 macro(enable_ubsan)
   if(CAFFE2_UBSAN_ENABLED)
     set(CMAKE_C_FLAGS "${UBSAN_FLAG} ${CMAKE_C_FLAGS}")
